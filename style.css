@@ -1,0 +1,342 @@
+:root {
+  --primary-color: rgb(203, 118, 220);
+  --secondary-color: rgb(215, 182, 228);
+  --accent-color: rgb(95, 95, 95);
+  --box-shadow-glow: 0px 0px 10px 10px rgb(173, 173, 173);
+  --box-shadow-glow-hover: 0px 0px 10px 10px rgb(173, 173, 173);
+}
+
+body {
+  margin: 60px auto;
+  max-width: 800px;
+  padding-top: 45px;
+  background: rgb(25, 25, 25);
+  color: rgb(180, 180, 180);
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 90px;
+  font-family: "Inconsolata", monospace;
+}
+
+h2 {
+  font-size: 48px;
+  font-family: "Inconsolata", monospace;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+  padding-bottom: 20px;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 25px;
+  padding: 15px;
+  background: var(--accent-color);
+}
+
+.about-link {
+  margin: 0 20px;
+  color: white;
+  padding: 10px 14px;
+  background: var(--accent-color);
+  border-radius: 40px;
+  text-decoration: none;
+  transition: all 120ms ease-in-out;
+}
+
+.about-link:hover {
+  box-shadow: var(--box-shadow-glow);
+}
+
+.contact-link {
+  margin: 0 20px;
+  color: white;
+  padding: 10px 14px;
+  background: var(--accent-color);
+  border-radius: 40px;
+  text-decoration: none;
+  transition: all 120ms ease-in-out;
+}
+
+.contact-link:hover {
+  box-shadow: var(--box-shadow-glow);
+}
+
+.launch-app {
+  display: block;
+  text-align: center;
+  margin: 20px;
+  border-radius: 25px;
+  padding: 15px;
+  background: var(--accent-color);
+  box-shadow: var(--box-shadow-glow);
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.launch-app:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.about-me-app {
+  display: block;
+  text-align: center;
+  margin: 20px;
+  border-radius: 25px;
+  padding: 15px;
+  background: var(--accent-color);
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  transition: all 120ms ease-in-out;
+}
+
+.about-me-app:hover {
+  box-shadow: var(--box-shadow-glow);
+}
+
+p {
+  background: var(--accent-color);
+  padding: 20px;
+  border-radius: 40px;
+  font-size: 18px;
+  line-height: 1.5;
+  color: black;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.homepage-link {
+  color: rgb(209, 209, 209);
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.homepage-link:hover {
+  text-decoration: underline;
+}
+
+.about-paragraphs {
+  display: flex;
+  margin-top: 30px;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+.email-link {
+  text-align: center;
+  display: block;
+  color: var(--accent-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+#contact {
+  margin-top: 45px;
+}
+
+.container {
+  padding-top: 50px;
+}
+
+footer {
+  text-align: center;
+  font-size: 15px;
+  padding-top: 50px;
+}
+
+.contact-icons a {
+  margin: 0 15px;
+  color: white;
+  padding: 10px 14px;
+  background: var(--accent-color);
+  border-radius: 40px;
+  font-size: 15px;
+  transition: all 120ms ease-in-out;
+}
+
+.contact-icons a:hover {
+  box-shadow: var(--box-shadow-glow);
+}
+
+#bottom-text {
+  font-size: 10px;
+  padding-top: 60px;
+  color: rgb(57, 57, 57);
+}
+
+#bottom-text a {
+  color: rgb(88, 88, 88);
+  text-decoration: none;
+}
+
+#bottom-text a:hover {
+  color: rgb(102, 102, 102);
+  text-decoration: underline;
+}
+
+.jag {
+  max-width: 275px;
+  border-radius: 35px;
+  border: solid 3px var(--accent-color);
+}
+
+.jag-p {
+  background: var(--accent-color);
+  padding: 15px;
+  border-radius: 35px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: black;
+  text-align: left;
+}
+
+.word-highlight {
+  color: rgb(146, 146, 146);
+}
+
+#project-photo {
+  border-radius: 100%;
+  border: solid 3px rgb(112, 112, 112);
+}
+
+#skills {
+  font-size: 30px;
+}
+
+#skills-icon {
+  font-size: 25px;
+}
+
+@media (max-width: 415px) {
+  body,
+  col-6 {
+    padding-top: 25px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 20px;
+    padding-top: 20px;
+  }
+
+  .navigation-links {
+    display: flex;
+    margin-top: 5px;
+    justify-content: center;
+  }
+
+  .navigation-links a {
+    margin: 20px;
+    border-radius: 100px;
+    padding: 15px;
+    background: var(--accent-color);
+    box-shadow: var(--box-shadow-glow);
+  }
+
+  .about-link {
+    text-decoration: none;
+    color: white;
+  }
+
+  .about-link:hover {
+    text-decoration: underline;
+    color: white;
+  }
+
+  .contact-link {
+    text-decoration: none;
+    color: white;
+  }
+
+  .contact-link:hover {
+    text-decoration: underline;
+    color: white;
+  }
+
+  .launch-app {
+    display: block;
+    margin: 20px;
+    border-radius: 100px;
+    padding: 15px;
+    background: var(--accent-color);
+    box-shadow: var(--box-shadow-glow);
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+  }
+
+  .launch-app:hover {
+    text-decoration: underline;
+    color: white;
+  }
+
+  p {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .jag-p {
+    font-size: 12px;
+    display: block;
+    margin: 15px;
+    padding: 15px;
+  }
+
+  #skills-container {
+    font-size: 10px;
+  }
+
+  #skills-icon {
+    font-size: 20px;
+  }
+
+  .project-p {
+    font-size: 10px;
+  }
+
+  .about-me-app {
+    font-size: 14px;
+    padding-top: none;
+  }
+
+  footer {
+    padding-top: 25px;
+  }
+}
