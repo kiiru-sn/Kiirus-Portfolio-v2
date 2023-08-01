@@ -38,6 +38,43 @@ h3 {
   padding-bottom: 20px;
 }
 
+.index-title {
+  text-align: left;
+  margin: 0 20px;
+}
+
+.first-name {
+  font-weight: bold;
+}
+
+.contact-container {
+  margin: 0 20px;
+  color: white;
+  padding: 0px 0px;
+  border: solid var(--accent-color);
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 120ms ease-in-out;
+}
+
+#contact-icons a {
+  margin: 0 15px;
+  color: rgb(180, 180, 180);
+  padding: 10px 14px;
+  border-radius: 40px;
+  font-size: 25px;
+  transition: all 120ms ease-in-out;
+}
+
+#contact-icons a:hover {
+  box-shadow: var(--box-shadow-glow);
+}
+
+#email-container {
+  font-size: 15px;
+  margin: 10px 0px;
+}
+
 .navigation-links {
   display: flex;
   margin-top: 30px;
@@ -171,20 +208,6 @@ footer {
   text-align: center;
   font-size: 15px;
   padding-top: 50px;
-}
-
-.contact-icons a {
-  margin: 0 15px;
-  color: white;
-  padding: 10px 14px;
-  background: var(--accent-color);
-  border-radius: 40px;
-  font-size: 15px;
-  transition: all 120ms ease-in-out;
-}
-
-.contact-icons a:hover {
-  box-shadow: var(--box-shadow-glow);
 }
 
 #bottom-text {
