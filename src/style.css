@@ -9,7 +9,7 @@
 body {
   margin: 60px auto;
   max-width: 800px;
-  padding-top: 45px;
+  padding-top: 100px;
   background: rgb(25, 25, 25);
   color: rgb(180, 180, 180);
 }
@@ -49,7 +49,7 @@ h3 {
 
 .contact-container {
   margin: 0 20px;
-  color: white;
+  color: rgb(180, 180, 180);
   padding: 0px 0px;
   border: solid var(--accent-color);
   border-radius: 6px;
@@ -67,12 +67,18 @@ h3 {
 }
 
 #contact-icons a:hover {
-  box-shadow: var(--box-shadow-glow);
+  color: white;
 }
 
 #email-container {
   font-size: 15px;
-  margin: 10px 0px;
+  margin: 10px 15px;
+  color: white;
+  padding: 0px px;
+  background: var(--accent-color);
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 120ms ease-in-out;
 }
 
 .navigation-links {
