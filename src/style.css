@@ -51,9 +51,8 @@ h3 {
 }
 
 .jag-index {
-  max-width: 100px;
-  border-radius: 35px;
-  border: solid 3px var(--accent-color);
+  max-width: 200px;
+  border-radius: 105px;
 }
 
 .contact-container {
