@@ -38,6 +38,9 @@ h3 {
   padding-bottom: 20px;
 }
 
+.index-container {
+}
+
 .index-title {
   text-align: left;
   margin: 0 20px;
@@ -45,6 +48,12 @@ h3 {
 
 .first-name {
   font-weight: bold;
+}
+
+.jag-index {
+  max-width: 100px;
+  border-radius: 35px;
+  border: solid 3px var(--accent-color);
 }
 
 .contact-container {
